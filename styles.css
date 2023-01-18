@@ -124,6 +124,7 @@
 .contentCardLang > button:hover{
   background-color: transparent;
   border: solid #CB92B1 2px;
+  color: white;
 }
 .cardExperience{
   width: 334px;
