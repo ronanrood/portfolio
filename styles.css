@@ -7,8 +7,9 @@
 }
 
 .main{
-  height: auto;
   background: rgba(34, 33, 44, 1);
+    display: grid; 
+    grid:"lContainer rContainer";
 }
 
 .leftContainer{ 
@@ -16,6 +17,15 @@
   padding-left: 40px;
   display: flex;
   flex-direction: column;
+  width: 400px;
+  grid-area: lContainer;
+}
+.rightContainer{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  grid-area: rContainer;
 }
 
 .cardProfile{
@@ -205,4 +215,33 @@
   color: #837E9F;
   font-weight:400;
   font-family: Merriweather Sans;
+}
+.cardProjects{
+  width: 952px;
+  height: 86px;
+  background-color: rgba(48, 47, 61, 1);
+  border-radius: 20px;
+}
+.contentCardProjects{
+display: flex;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 40px;
+}
+.contentCardProjects > p{
+  font-size: 20px;
+  font-family: Merriweather Sans;
+  font-weight: 700;
+  color: rgba(131, 126, 159, 1);
+  padding-top: 30px;
+  width: 200px;
+}
+.contentCardProjects > a{
+  font-size: 14px;
+  font-family: Merriweather Sans;
+  font-weight: 300;
+  color: rgba(131, 126, 159, 1);
+  padding-top: 34px;
+  text-decoration: none;
 }
