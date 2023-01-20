@@ -245,6 +245,10 @@ margin-top: 40px;
   padding-top: 34px;
   text-decoration: none;
 }
+.containerNewProject{
+  display: flex;
+  gap: 30px;
+}
 .newProject{
   width: 460px;
   height: 186px;
