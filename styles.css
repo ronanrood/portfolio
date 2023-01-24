@@ -94,7 +94,6 @@
   font-size: 13;
   font-weight: 400;
   font-family: Merriweather Sans;
-  text-align:;
 }
 .cardLanguage{
   width: 334px;
@@ -327,7 +326,7 @@ margin-top: 40px;
   padding-left: 30px;
 }
 .containerCardPost{
-  width: 952px;
+  width: 929px;
   height: 200px;
   background-color: rgba(48, 47, 61, 1);
   border-radius: 20px;
@@ -345,6 +344,7 @@ margin-top: 40px;
   padding-left: 20px;
   display: flex;
   flex-direction: column;
+  
 }
 .titleCardPost{
   font-size: 20px;
