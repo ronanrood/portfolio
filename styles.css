@@ -301,3 +301,68 @@ margin-top: 40px;
   display: flex;
   justify-content: end;
 }
+.cardRecents{
+  width: 952px;
+  height: 86px;
+  background-color: rgba(48, 47, 61, 1);
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.contentCardRecents{
+  font-size: 20px;
+  font-family: Merriweather Sans;
+  font-weight: 700;
+  color: rgba(131, 126, 159, 1);
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.containerCardPost{
+  width: 952px;
+  height: 200px;
+  background-color: rgba(48, 47, 61, 1);
+  border-radius: 20px;
+  margin-top: 60px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.containerCardPost > img{
+  width: 128px;
+  height: 128px;
+  border-radius: 100px;
+}
+.textCardPost {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.titleCardPost{
+  font-size: 20px;
+  color: #837E9F;
+  font-weight: 700;
+  font-family: Merriweather Sans;
+  padding-bottom: 5px;
+}
+.subtitleCardPost{
+  font-size: 14px;
+  color: #837E9F;
+  font-weight: 400;
+  font-family: Merriweather Sans;
+  padding-bottom: 28px;
+}
+.descriptCardPost{
+  font-size: 16px;
+  color: #837E9F;
+  font-weight: 700;
+  font-family: Merriweather Sans;
+ }
+ .hastagCardPost{
+  font-size: 16px;
+  color: #837E9F;
+  font-weight: 400;
+  font-family: Merriweather Sans;
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding-top: 5px;
+ }
